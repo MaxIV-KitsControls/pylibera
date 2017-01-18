@@ -6,6 +6,7 @@ build:
 
 clean:
 	rm -rf build/ 
+	rm src/pylibera.cpp
 	rm pylibera.so
 	
 deb:
