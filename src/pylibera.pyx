@@ -1,5 +1,5 @@
 # distutils: language = c++
-# distutils: sources = pyliberaclient.cpp
+# distutils: sources = src/pyliberaclient.cpp
 
 from pylibera cimport pyLiberaClient
 

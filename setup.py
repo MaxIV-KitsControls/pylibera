@@ -2,7 +2,7 @@ from distutils.core import setup, Extension
 from Cython.Build import cythonize
 
 extensions = [
-	Extension('pylibera', ['pylibera.pyx'], 
+	Extension('*', ['src/pylibera.pyx'], 
 		include_dirs = ['/usr/include/libera-2.9'],
 		extra_compile_args=["-std=c++0x"],
 		language="c++",
