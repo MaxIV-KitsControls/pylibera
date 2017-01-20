@@ -1,4 +1,4 @@
-python-libera (0.1.0) unstable; urgency=low
+python-pylibera (0.1.0) unstable; urgency=low
 
   * Initial release, can connect remotely/locally to libera devices and read double-type values 
 
