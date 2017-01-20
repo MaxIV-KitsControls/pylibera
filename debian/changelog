@@ -1,0 +1,5 @@
+python-libera (0.1.0) unstable; urgency=low
+
+  * Initial release, can connect remotely/locally to libera devices and read double-type values 
+
+ -- Vasileios Martos <vasileios.martos@maxiv.lu.se>  Thu, 19 Jan 2017 18:47:29 +0100
