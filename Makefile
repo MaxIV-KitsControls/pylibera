@@ -6,8 +6,8 @@ build:
 
 clean:
 	rm -rf build/ 
-	rm src/pylibera.cpp
-	rm pylibera.so
+	rm -f src/pylibera.cpp
+	rm -f pylibera.so
 	
 deb:
 	dpkg-buildpackage -us -uc
