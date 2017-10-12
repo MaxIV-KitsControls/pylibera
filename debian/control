@@ -2,10 +2,10 @@ Source: python-pylibera
 Maintainer: MAXIV Laboratory <kits@maxlab.lu.se>
 Homepage: https://github.com/MaxIV-KitsControls/pyLibera
 Build-Depends: debhelper,
-               libera-base2.9-dev,
-               libera-mci2.9-dev
+               libera-base3.2-dev,
+               libera-mci3.2-dev
 
 Package: python-pylibera
 Architecture: i386
-Depends: libera-base2.9, libera-mci2.9
+Depends: libera-base3.2, libera-mci3.2
 Description: Simple python interface to connect to Libera devices

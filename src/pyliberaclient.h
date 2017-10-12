@@ -10,12 +10,14 @@ namespace pyLibera {
 	public:
 		//LiberaClient();
 		pyLiberaClient(std::string ip_address);
-		pyLiberaClient(std::string ip_address, std::string root_type);
+		pyLiberaClient(std::string ip_address, std::string &root_type);
 		~pyLiberaClient();
 		/* Get value from the specified Node */
 		//template<class T>
 		//T GetValue(std::string node);
 		double GetValue(std::string node);
+		void TreeWalk(const mci::Node &a_node, std::vector<std::string> &a_out);
+		std::vector<std::string> MagicCommand(std::string a_path);
 	private:
 		mci::Node root;
 		mci::Root node_type;

@@ -1,5 +1,17 @@
+python-pylibera (0.2.0) unstable; urgency=low
+
+  * Add getValue method, get settings of all ireg tree
+
+ -- Vasileios Martos <vasileios.martos@maxiv.lu.se>  Thu, 12 Oct 2017 18:47:29 +0100
+
+python-pylibera (0.2.0) unstable; urgency=low
+
+  * Build for Ubuntu 14.04, linked with  libera3.2 API
+
+ -- Vasileios Martos <vasileios.martos@maxiv.lu.se>  Thu, 19 Jan 2017 18:47:29 +0100
+
 python-pylibera (0.1.0) unstable; urgency=low
 
-  * Initial release, can connect remotely/locally to libera devices and read double-type values 
+  * Initial release, can connect remotely/locally to libera devices and read double-type values
 
  -- Vasileios Martos <vasileios.martos@maxiv.lu.se>  Thu, 19 Jan 2017 18:47:29 +0100
